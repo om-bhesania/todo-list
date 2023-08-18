@@ -11,7 +11,6 @@ import {
 } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 import img from "../images/empty.svg";
-import Footer from "./footer";
 
 function TaskList({ tasks, updateTask, deleteTask, deleteTaskAll, checkTask }) {
   if (!tasks.length) {
